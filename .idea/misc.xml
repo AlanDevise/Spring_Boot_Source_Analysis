@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-05-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-10-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-00-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-12-webmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-14-launch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-11-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-13-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-aop-spring4/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-ioccontainer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-ioccontainer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-embeddedserver/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-springapplication/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_201" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

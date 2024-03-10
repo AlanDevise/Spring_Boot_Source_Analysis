@@ -7,18 +7,21 @@ import com.linkedbear.springboot.assemble.a_module.selector.BarImportSelector;
 import com.linkedbear.springboot.assemble.a_module.selector.WaiterDeferredImportSelector;
 import org.springframework.context.annotation.Import;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
+
+/**
+ * <h2>JavaBean的生成顺序是</h2>
+ * <p>ImportSelector -> DeferredImportSelector -> ImportBeanDefinitionRegistrar<p/>
+ */
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import({Boss.class, BartenderConfiguration.class, BarImportSelector.class, WaiterRegistrar.class,
-                WaiterDeferredImportSelector.class
-        })
+@Import({Boss.class,// 最普通的类注入
+        BartenderConfiguration.class,   // 一次行注入多个JavaBean
+        BarImportSelector.class,        // 声名式导入多个JavaBean，方法中返回类的全限定名称
+        WaiterDeferredImportSelector.class, // 声名式导入JavaBean，方法中返回类的全限定名称
+        WaiterRegistrar.class})          // 编程式导入1个JavaBean对象
 public @interface EnableTavern {
-    
+
 }

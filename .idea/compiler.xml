@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-06-lifecycle" />
+        <module name="springboot-04-springapplication" />
+        <module name="springboot-05-aop" />
+        <module name="springboot-07-lifecycle" />
+        <module name="springboot-03-ioccontainer" />
+        <module name="springboot-09-aop" />
+        <module name="springboot-10-jdbc" />
+        <module name="springboot-14-launch" />
+        <module name="springboot-13-webflux" />
+        <module name="springboot-02-ioccontainer" />
+        <module name="springboot-08-embeddedserver" />
+        <module name="springboot-11-mybatis" />
+        <module name="springboot-01-quickstart" />
+        <module name="springboot-12-webmvc" />
+        <module name="springboot-09-aop-spring4" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-01-quickstart" options="-parameters" />
+      <module name="springboot-02-ioccontainer" options="-parameters" />
+      <module name="springboot-03-ioccontainer" options="-parameters" />
+      <module name="springboot-04-springapplication" options="-parameters" />
+      <module name="springboot-05-aop" options="-parameters" />
+      <module name="springboot-06-lifecycle" options="-parameters" />
+      <module name="springboot-07-lifecycle" options="-parameters" />
+      <module name="springboot-08-embeddedserver" options="-parameters" />
+      <module name="springboot-09-aop" options="-parameters" />
+      <module name="springboot-10-jdbc" options="-parameters" />
+      <module name="springboot-11-mybatis" options="-parameters" />
+      <module name="springboot-12-webmvc" options="-parameters" />
+      <module name="springboot-13-webflux" options="-parameters" />
+      <module name="springboot-14-launch" options="-parameters" />
+    </option>
+  </component>
+</project>
